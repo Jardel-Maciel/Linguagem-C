@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main(){
-    setlocale(LC_ALL, "Portugues");
+    setlocale(LC_ALL,"Portuguese");
     
     int x, y, res;
     printf("Digite um valor:\n");
