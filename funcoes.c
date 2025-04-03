@@ -9,7 +9,7 @@ int main(){
     int valor, res;
    
     printf("Digite um valor: \n");
-    scanf_s("%d", &valor);
+    scanf("%d", &valor);//no linux usar scanf não scanf_s
 
     res = parImpar(valor);
     
