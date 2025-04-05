@@ -10,11 +10,11 @@ int main() {
 
     gets_s(nome, 44);
 
-    printf("Digite sua idade: ");
+    printf("\n\nDigite sua idade: ");
 
     scanf_s("%d", &idade);
 
-    printf("Minha idade de %s eh %d", nome, idade);
+    printf("\n\nMinha idade de %s eh %d", nome, idade);
 
     return 0;
 } 
