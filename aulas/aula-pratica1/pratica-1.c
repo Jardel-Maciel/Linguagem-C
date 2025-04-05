@@ -1,20 +1,17 @@
 #include <stdio.h>
 
 int main() {
-
-    int idade; 
-
+    int idade;
     char nome[45];
 
-    printf("Digite seu nome: ");
-
+    printf("Digite o seu nome: ");
     gets_s(nome, 44);
 
-    printf("\n\nDigite sua idade: ");
-
+    printf("Digite sua idade: ");
     scanf_s("%d", &idade);
 
-    printf("\n\nMinha idade de %s eh %d", nome, idade);
+    printf("A idade de %s eh %d", nome, idade);
 
     return 0;
-} 
+
+}
