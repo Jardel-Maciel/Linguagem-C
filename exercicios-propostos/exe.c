@@ -5,7 +5,7 @@ int main (){
     int i = 1;
     float f = 1.5;
     double d = 2;
-    char nome = "M";
+    char c = "M";
 
     printf("\nO valor da variavel i eh de : %d", i);
     printf("\nO valor da variavel f eh de : %f", f);
