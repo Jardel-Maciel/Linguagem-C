@@ -41,7 +41,7 @@ int main(){
 
     //Atualizar e mostrar no estoque
     for (i <= 0; i < 3; i++){
-        printf("Livros: %s \t Qtda: %d \t\t Preco: %.2f\n", valorTotal);
+        printf("Livros: %s \t Qtda: %d \t Preco: %.2f\n", valorTotal);
     }
     printf("\nOvalor total do estoque eh: %.2f", valorTotal);
 
