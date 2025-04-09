@@ -7,7 +7,7 @@ int main(){
     float preco1, preco2 , preco3;
 
     printf("Digite o preco do primeiro produto : ");
-    scanf_s("%f", &preco1);// lembrar sempre do & 
+    scanf_s("%f", &preco1);// lembrar sempre do &.
 
     printf("Digite o preco do segundo produto: ");
     scanf_s("%f", &preco2);
