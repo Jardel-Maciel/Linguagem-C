@@ -6,19 +6,20 @@ int main(){
     float precos[3];
     float valorTotal = 0.0;
     int i, escolha,qtdVenda;
-    char c;
 
-    for (i <= 0; i < 3; i++){
+
+
+    for (i = 0; i < 3; i++){
         printf("Digite o nome do livro %d: ",i + 1 );
         gets_s(produtos[i], 49);
         
         printf("Digite a quantidade de livros %d: ", i + 1);
         scanf_s("%d", &quantidade[i]);
-        c = getchar();
+        
 
         printf("Digite o preco do livro %d: ", i + 1);
-        scanf("%f", &precos[i]);
-        c = getchar();
+        scanf_s("%f", &precos[i]);
+     
 
         printf("\n");
        
@@ -26,22 +27,22 @@ int main(){
          //mostrar estoque
          printf("\n Estoque de produtos:\n");
 
-    for (i <= 0; i < 3; i++){
+    for (i = 0; i < 3; i++){
         printf("\n Digite o codigo do Livro Vendido[1 - 10]: ");
-        scanf("%d", &escolha);
-        c = getchar();
+        scanf_s("%d", &escolha);
+       
 
         printf("\n Qual a quantidade de livros vendida? ");
-        scanf("%d", &qtdVenda);
-        c = getchar();
+        scanf_s("%d", &qtdVenda);
+       
 
         quantidade[escolha - 1] = quantidade[escolha - 1] - qtdVenda;
         valorTotal = 0.0;           
         }
 
     //Atualizar e mostrar no estoque
-    for (i <= 0; i < 3; i++){
-        printf("Livros: %s \t Qtda: %d \t Preco: %.2f\n", valorTotal);
+    for (i = 0; i < 3; i++){
+        printf("Livros: %s \t Qtda: %d \t Preco: %.2f\n", produtos[i], quantidade[i], precos[i]);
         valorTotal += quantidade[i] * precos[i];
     }
 
