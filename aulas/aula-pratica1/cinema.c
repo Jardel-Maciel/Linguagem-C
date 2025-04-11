@@ -41,9 +41,7 @@ int main(){
             cinema[fileira - 1] [coluna -  1] == 'X';
             printf("\nAssento %d, %d reservado com sucesso\n", fileira, coluna);
         }
-        else{
-            
-        }
+        
     }
     return 0;
 }
