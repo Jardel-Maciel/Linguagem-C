@@ -3,7 +3,7 @@
 
 int main()
 {
-    int x, y, res;
+    int x;
     printf("Digite um valor>\n");
     scanf("%i", &x);
     if(x % 2 == 0){
